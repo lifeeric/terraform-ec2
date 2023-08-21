@@ -1,6 +1,17 @@
 # terraform-ec2
 Practical example of EC2
 
+### Commands:
+```sh
+$ alias tf="terraform"
+
+$ tf init
+$ tf fmt
+$ tf plan
+$ tf apply
+$ tf destroy
+```
+
 ```tf
 provider "aws" {
   profile = "default"
